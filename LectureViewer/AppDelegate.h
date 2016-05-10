@@ -8,8 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
+extern NSString *const PDF_SELECTED_KEY;
+
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+- (IBAction)onOpenPDFClick:(id)sender;
 
 @end
 

@@ -14,6 +14,8 @@
 		80537E301CE0D5EA00A51D73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80537E2E1CE0D5EA00A51D73 /* Main.storyboard */; };
 		80537E3B1CE0D5EA00A51D73 /* LectureViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80537E3A1CE0D5EA00A51D73 /* LectureViewerTests.m */; };
 		80537E461CE0D5EA00A51D73 /* LectureViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80537E451CE0D5EA00A51D73 /* LectureViewerUITests.m */; };
+		80537E541CE0D81700A51D73 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80537E531CE0D81700A51D73 /* Quartz.framework */; };
+		80537E571CE0D9E900A51D73 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80537E561CE0D9E900A51D73 /* WindowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		80537E411CE0D5EA00A51D73 /* LectureViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LectureViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80537E451CE0D5EA00A51D73 /* LectureViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LectureViewerUITests.m; sourceTree = "<group>"; };
 		80537E471CE0D5EA00A51D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80537E531CE0D81700A51D73 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		80537E551CE0D9E900A51D73 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		80537E561CE0D9E900A51D73 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80537E541CE0D81700A51D73 /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +85,7 @@
 		80537E171CE0D5EA00A51D73 = {
 			isa = PBXGroup;
 			children = (
+				80537E531CE0D81700A51D73 /* Quartz.framework */,
 				80537E221CE0D5EA00A51D73 /* LectureViewer */,
 				80537E391CE0D5EA00A51D73 /* LectureViewerTests */,
 				80537E441CE0D5EA00A51D73 /* LectureViewerUITests */,
@@ -107,6 +114,8 @@
 				80537E2E1CE0D5EA00A51D73 /* Main.storyboard */,
 				80537E311CE0D5EA00A51D73 /* Info.plist */,
 				80537E261CE0D5EA00A51D73 /* Supporting Files */,
+				80537E551CE0D9E900A51D73 /* WindowController.h */,
+				80537E561CE0D9E900A51D73 /* WindowController.m */,
 			);
 			path = LectureViewer;
 			sourceTree = "<group>";
@@ -267,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80537E2B1CE0D5EA00A51D73 /* ViewController.m in Sources */,
+				80537E571CE0D9E900A51D73 /* WindowController.m in Sources */,
 				80537E281CE0D5EA00A51D73 /* main.m in Sources */,
 				80537E251CE0D5EA00A51D73 /* AppDelegate.m in Sources */,
 			);

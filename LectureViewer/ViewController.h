@@ -7,9 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <Quartz/Quartz.h>
+
 
 @interface ViewController : NSViewController
 
+@property (weak) IBOutlet PDFView *pdfView;
+
+@property (unsafe_unretained) IBOutlet NSTextView *contentTextView;
 
 @end
 
